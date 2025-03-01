@@ -12,4 +12,12 @@ public partial class EditContactPage : ContentPage
         //Shell.Current.GoToAsync("..");
         Shell.Current.GoToAsync($"//{nameof(ContactsPage)}");
     }
+
+    public string ContactId
+    {
+        set
+        {
+
+        }
+    }
 }
